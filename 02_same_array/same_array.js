@@ -12,8 +12,8 @@ const comp = function(array1, array2) {
     return true;
   }
   
-  const temp1 = Array.from(array1).sort();
-  const temp2 = Array.from(array2).sort();
+  const temp1 = Array.from(array1).sort((a, b) => a - b);
+  const temp2 = Array.from(array2).sort((a, b) => a - b);
   for (let i = 0; i < temp1.length; i++) {
     if (temp1[i] **2 !== temp2[i]) {
       return false;

@@ -17,4 +17,10 @@ describe('Same Array', function() {
     expect(comp([], [])).toEqual(true);
   });
 
+  test('Random array input', function() {
+    let a1 = [2, 9, 4, 0, 3, 3, 8, 10, 6, 7];
+    let a2 = [0, 81, 36, 9, 64, 49, 16, 9, 4, 100];
+    expect(comp(a1, a2)).toEqual(true);
+  });
+
 });
