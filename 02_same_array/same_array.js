@@ -1,8 +1,8 @@
 const comp = function(array1, array2) {
-  if (!Array.isArray(array1) || !array1.length) {
+  if (!Array.isArray(array1)) {
     return false;
   }
-   if (!Array.isArray(array2) || !array2.length) {
+   if (!Array.isArray(array2)) {
     return false;
   }
   if (array1.length !== array2.length) {

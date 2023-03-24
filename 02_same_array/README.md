@@ -25,7 +25,7 @@ If, for example, we change the first number to something else, comp is not retur
 `b = [121, 14641, 20736, 36100, 25921, 361, 20736, 361]`
 `comp(a,b)` returns false because in b 36100 is not the square of any number of a.
 
-Remarks
+## Remarks
 `a` or `b` might be `[]`
-`a` or `b` might be `null` or None or nothing (except in C++, COBOL, Crystal, D, Dart, Elixir, Fortran, F#, Haskell, Nim, OCaml, Pascal, Perl, PowerShell, Prolog, PureScript, R, Racket, Rust, Shell, Swift).
+`a` or `b` might be `null`
 If `a` or `b` are `null`, the problem doesn't make sense so return false.
